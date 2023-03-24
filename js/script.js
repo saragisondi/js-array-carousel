@@ -17,6 +17,7 @@ for (let i = 0; i < images.length; i++){
   itemsWrapper.innerHTML += `
   <img class="item" src="${image}">
   `
-
   }
   
+  const items = document.getElementsByClassName('item');
+  console.log(items)
