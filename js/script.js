@@ -7,6 +7,8 @@ const images = [
   'img/05.webp'  
 ]
 
+let counter = 0;
+
 //CICLO
 const itemsWrapper = document.querySelector('.items-wrapper');
 console.log(itemsWrapper)
@@ -20,5 +22,11 @@ for (let i = 0; i < images.length; i++){
   }
   //PRENDO TUTTI GLI ITEMS
   const items = document.getElementsByClassName('item');
-  items[0].classList.remove('item');
-  console.log(items[0]);
+  items[counter].classList.remove('item');
+
+
+  // const btn = document.querySelector('btn-chevron');
+
+  // btn.addEventListener('click', function(){
+
+  // })
