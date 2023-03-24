@@ -27,27 +27,40 @@
   align-items: center;
 }
 
+/*IMG*/
 .slider img{
   height: 100%;
   object-fit: cover;
 }
 
-
-
 .slider .btn-chevron{
 background-color:#CCCCCC;
-width: 25px;
-height: 25px;
+border-style: none;
+width: 20px;
+height: 20px;
+line-height: 20px;
 border-radius: 50%;
 text-align: center;
 position: absolute;
-transform: translate(-50%);
 }
 
 .btn-chevron.prev{
   top:140px;
+  cursor: pointer;
 }
 
 .btn-chevron.next{
   bottom:140px;
+  cursor: pointer;
+}
+
+/*HOVER*/
+.btn-chevron.prev:hover{
+  color:#CCCCCC ;
+  background-color:black;
+}
+
+.btn-chevron.next:hover{
+  color:#CCCCCC ;
+  background-color:black;
 }
