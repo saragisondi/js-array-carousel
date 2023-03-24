@@ -18,6 +18,7 @@ for (let i = 0; i < images.length; i++){
   <img class="item" src="${image}">
   `
   }
-  
+  //PRENDO TUTTI GLI ITEMS
   const items = document.getElementsByClassName('item');
-  console.log(items)
+  items[0].classList.remove('item');
+  console.log(items[0]);
